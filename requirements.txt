@@ -3,7 +3,7 @@ TgCrypto
 aiohttp
 python-dotenv
 requests
-Pyrogram==1.4.16
+Pyrogram
 requests
 wget
 asyncio
