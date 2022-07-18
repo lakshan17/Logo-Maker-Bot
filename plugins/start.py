@@ -27,7 +27,7 @@ from pyrogram.types import (
     Message,
 )
 import database
-
+uname = (bot.get_me()).username
 db=database.db.db
 
 @Client.on_message(filters.private & filters.command(["start"]))
