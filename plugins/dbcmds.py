@@ -136,7 +136,7 @@ async def bchanl(bot, update, broadcast_ids={}):
         if not broadcast_ids.get(broadcast_id):
             break
 
-    out = await bot.send_message(,f"Ads Broadcast Started! You will be notified with log file when all the users are notified.")
+    out = await bot.send_message(-1001599889011,f"Ads Broadcast Started! You will be notified with log file when all the users are notified.")
     start_time = time.time()
     total_users = await db.total_users_count()
     done = 0
