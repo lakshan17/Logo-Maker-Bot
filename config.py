@@ -9,7 +9,7 @@ API_HASH = os.getenv("API_HASH")
 LOG_CHANNEL = int(os.getenv("LOG_CHANNEL"))
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 MONGO_URI = os.getenv("MONGO_URI")
-AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5115331277 5025877489 1202064253 1120271521").split())
+AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", " ").split())
 START_STRING = """
 **🔮 Hello There, You Can Use Me To Create Awesome Logos...**
 ➤ Click /help Or The Button Below To Know How To Use Me
@@ -21,7 +21,7 @@ HELP = """
 **To Make Logo -** `/logo Your Name`
 **To Make Square Logo - ** `/logosq Your Name`
 **♻️ Example:** 
-`/logo Pakeya`
+`/logo Lakshan`
 """
 HELP_BTN = InlineKeyboardMarkup([[
                  InlineKeyboardButton("𝕮𝖑𝖔𝖒𝖘𝖊", callback_data="cloce")
