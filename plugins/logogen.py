@@ -31,7 +31,7 @@ async def on_off_antiarab(_, message: Message):
     f= message.text
     s=f.replace('/logo ' ,'')
     text=s.replace(' ', '%20')
-    lol = (f"https://single-developers.up.railway.app/logo?name={text}")
+    lol = (f"https://api.single-developers.software/logo?name={text}")
     photo = wget.download(lol, 'pythonlogo.png')
     await m.delete()
     caption = f"""
