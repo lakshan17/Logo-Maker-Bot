@@ -30,7 +30,7 @@ import database
 
 db=database.db.db
 
-data = client.get_me()
+data = Client.get_me()
 BOT_USERNAME = data.username
 
 @Client.on_message(filters.private & filters.command(["start"]))
