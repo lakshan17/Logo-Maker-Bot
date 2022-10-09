@@ -30,9 +30,6 @@ import database
 
 db=database.db.db
 
-data = GetMe.get_me()
-BOT_USERNAME = data.username
-
 @Client.on_message(filters.private & filters.command(["start"]))
 async def help_me(bot, message):
     chat_id = message.from_user.id
@@ -51,7 +48,7 @@ async def help_me(bot, message):
                  InlineKeyboardButton('• 𝙊𝙪𝙩𝙧𝙪𝙞𝙓 • ™', url=f"https://t.me/TeamOutruix")
                  ],
                  [
-                 InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                 InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{uname}?startgroup=true")
                  ]]
                   )
     await message.reply_text(
