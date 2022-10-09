@@ -30,7 +30,6 @@ import database
 
 db=database.db.db
 
-BOT_USERNAME = _.username
 
 @Client.on_message(filters.private & filters.command(["start"]))
 async def help_me(bot, message):
