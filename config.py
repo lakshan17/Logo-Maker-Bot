@@ -15,7 +15,7 @@ START_STRING = """
 **🔮 Hello There, You Can Use Me To Create Awesome Logos...**
 ➤ Click /help Or The Button Below To Know How To Use Me
 """
-S_STICKER = os.getenv("S_STICKER", "CAADBQADKgYAAqf_YFVnWOiahdbj0wI")
+S_STICKER = os.getenv("S_STICKER", "CAACAgIAAxkBAAEH7rFjRERwMBxId7tejR9YRM4bCxQwEgACugADMNSdEYTXxIjEUGdWHgQ")
 
 HELP = """
 **🖼 How To Use Me ?**
