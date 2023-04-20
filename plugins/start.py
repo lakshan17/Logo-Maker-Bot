@@ -16,7 +16,7 @@ from pyrogram.types import Message
 from Python_ARQ import ARQ
 from pyrogram.types import User, Message, InlineQuery, InlineQueryResultArticle, InputTextMessageContent, InlineKeyboardMarkup, InlineKeyboardButton
 import aiohttp
-import yt_dlp
+#import yt_dlp
 from urllib.parse import urlparse
 from opencc import OpenCC
 from pyrogram import filters
