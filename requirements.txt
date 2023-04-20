@@ -29,4 +29,3 @@ opencv-python-headless
 pytz
 pykeyboard
 Python_ARQ
-yt_dlp
